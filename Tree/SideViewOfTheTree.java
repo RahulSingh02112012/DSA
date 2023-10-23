@@ -1,4 +1,4 @@
-package Tree;
+package Tree.Tree;
 
 //See 13th December Video
 public class SideViewOfTheTree {

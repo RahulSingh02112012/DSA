@@ -1,6 +1,6 @@
-package Tree;
+package Tree.Tree;
 
-public class SerializeAndDeserilaize {
+public class LowestCommonAncestor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

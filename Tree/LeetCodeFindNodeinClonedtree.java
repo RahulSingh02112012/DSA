@@ -1,4 +1,4 @@
-package Tree;
+package Tree.Tree;
 
 public class LeetCodeFindNodeinClonedtree {
 	TreeNode root;
