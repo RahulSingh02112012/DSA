@@ -1,5 +1,8 @@
 package Tree.Tree;
 
+import java.util.Map;
+import java.util.TreeMap;
+
 public class TopViewOfTheTree {
 	TreeNode root;
 	
@@ -22,7 +25,7 @@ public class TopViewOfTheTree {
 		}
 	}
 	
-	private static void getTopViewOfTree(TreeNode root,TreeMap<Integer,Integer> m,int hd) {
+	private static void getTopViewOfTree(TreeNode root, TreeMap<Integer,Integer> m, int hd) {
 		if(root == null) {
 			return;
 		}

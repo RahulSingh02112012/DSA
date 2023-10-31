@@ -1,5 +1,7 @@
 package Tree.Tree;
 
+import java.util.*;
+
 //See 13th December Video
 public class SideViewOfTheTree {
 	TreeNode root;
@@ -40,7 +42,7 @@ public class SideViewOfTheTree {
 		if(root == null) {
 			return;
 		}
-		Queue<TreeNode> q = new LinkedList<>();	
+		Queue<TreeNode> q = new LinkedList<>();
 		q.add(root);
 		q.add(null);
 		System.out.println(root.data);
