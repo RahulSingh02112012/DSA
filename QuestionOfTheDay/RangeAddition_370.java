@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 public class RangeAddition_370 {
     // Similar to temple problem asked in VM ware
+    // Check corporate flight booking and car pooling question
     public static void main(String[] args) {
         int[][] updates = {{1,3,2},{2,4,3},{0,2,-2}};
         System.out.println(Arrays.stream(getRangeSum(5,updates)).toArray());
