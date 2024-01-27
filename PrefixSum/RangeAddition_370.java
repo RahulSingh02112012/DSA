@@ -1,4 +1,4 @@
-package Tree.QuestionOfTheDay;
+package Tree.PrefixSum;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
