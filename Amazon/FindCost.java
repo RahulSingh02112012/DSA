@@ -12,5 +12,12 @@ b is a list of size n
 m is a number with bound till 10^5
  */
 public class FindCost {
+    /*//int[] trucks = {4, 5, 7, 2};
+    //int[] items = {1, 2, 5};
 
+    // int[] trucks = {5, 3, 8, 1};
+    // int[] items = {6,10};
+
+    int[] trucks = {1,3,5,2,3,2};
+    int[] items = {1,2,3};*/
 }
