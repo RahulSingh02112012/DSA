@@ -16,7 +16,7 @@ public class InterviewQuestions {
 
        Map<String, List<String>> map = Arrays.stream(arr)
                                             .collect(Collectors.groupingBy(s->s));
-       // this will give i = [i,i]
+       // this will give <i , [i,i]>
         System.out.println(map);
         Map<String, Long> map1 = Arrays.stream(arr)
                                              .collect(Collectors
@@ -97,7 +97,6 @@ public class InterviewQuestions {
                 .collect(Collectors.toList())
         );
 
-        //
 
 
     }

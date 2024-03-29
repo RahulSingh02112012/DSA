@@ -43,6 +43,8 @@ public class FinfNthHighestSalary {
                         .get(1)
         );
 
+        // Take List of List and then map to a key and sort by value desc
+
 
     }
 }

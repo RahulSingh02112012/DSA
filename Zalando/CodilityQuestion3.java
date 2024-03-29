@@ -11,7 +11,9 @@ public class CodilityQuestion3 {
 
     private static int getMaxCanAttend(String[] strings) {
         Map<Integer,List<Integer>> availabilityMap = new HashMap<>();
+
         for(int i=0; i<10; i++) {
+            // key - is day and value is number of employees that are free that day
             availabilityMap.put(i, new ArrayList<>());
         }
 
@@ -27,11 +29,14 @@ public class CodilityQuestion3 {
                 availabilityMap.put(key, listTemp);
             }
         }
+
         int res = 0;
 
         Set<Integer> set = new HashSet<>();
+
         for(int i =0;i<10;i++) {
             List<Integer> list = availabilityMap.get(i);
+
             for(int j=i+1;j<10;j++) {
                 set.addAll(list);
                 if(availabilityMap.get(j) != null) {
