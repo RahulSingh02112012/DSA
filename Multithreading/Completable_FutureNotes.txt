@@ -1,8 +1,29 @@
 https://www.youtube.com/watch?v=SFwCiYwr3yQ&list=PL6W8uoQQ2c63f469AyV78np0rbxRFppkx&index=36
 
+Completetable Future:
 supplyAsyc - used to compute can pass custom thread pool executor else default is fork-join-pool
 thenApply ( apply function on output of supply async)
 thenApplyAsync( new thread will be used)
 thenAccpet ( final stage )
 then compose ( when you want ordering between independent async tasks )
 thencombine(used when u want to chain two completable future can return two diff data types)
+
+
+ThreadPool Executor is custom thread pool executor or we can use Executor service from Java
+
+ExecutorService poolExecutor = Executors.newFixedThreadPool(5);
+poolExecutor.submit(() -> {// some task});
+
+4 types :
+Executors.newFixedThreadPool(5); // Unbounded queue/ Thread alive when idle / Use when you know exact info of tasks number
+
+Executors.newSingleThreadPool();// Min max = 1/ Unblocking queue / Thread alive when idle/ Process tasks in sequence
+
+Executors.newScheduledThreadPool();// When you want to schedule task to execute at certain interval or start at certain time
+
+Executors.newCachedThreadPool(); // Creates thread as needed dynamically /
+                                   // Blocking queue with size = 0 /
+                                   //Thread alive = 60 seconds
+                                   // Use when burst of short live tasks
+
+
